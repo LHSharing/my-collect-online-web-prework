@@ -7,8 +7,7 @@
 def my_collect(empty_array)
   counter = 0
   while counter < empty_array.length
-        #my_collect(empty_array) do |x|
-         yield(empty_array.capitalize[counter])
+         yield(empty_array[counter])
       counter += 1
   end
       empty_array
@@ -18,3 +17,5 @@ end
 #execute code block that it is called with for each element using the “yield” keyword
 #should return modified collection
 #end
+
+        #my_collect(empty_array) do |x|
