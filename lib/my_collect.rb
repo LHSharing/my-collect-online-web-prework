@@ -4,14 +4,14 @@
 
 #Your #my_collect method, therefore, should not care about the contents of the code block that it is invoked with. For example, let's say we are writing an app to help teachers manage their students. Our teacher has a list of students:
 
-def collect_method(collection)
+def collect_method(empty_array)
   counter = 0
-  while counter < collection.length
+  while counter < empty_array.length
         #my_collect(empty_array) do |x|
-         yield(collection[counter])
+         yield(empty_array[counter])
       counter += 1
   end
-      collection
+      empty_array
 end
 #collection —> iterate over collection using a “while loop”
             #"while loop” = “while n < 3 puts “not enough stars, keep trying”
