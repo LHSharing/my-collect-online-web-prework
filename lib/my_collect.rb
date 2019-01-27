@@ -5,7 +5,7 @@
 #Your #my_collect method, therefore, should not care about the contents of the code block that it is invoked with. For example, let's say we are writing an app to help teachers manage their students. Our teacher has a list of students:
 
 def collect_method(collection)
-counter = 0
+  counter = 0
   while counter < collection.length
         #my_collect(empty_array) do |x|
          yield(collection[counter])
