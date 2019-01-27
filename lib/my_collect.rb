@@ -8,7 +8,7 @@ def my_collect(empty_array)
   counter = 0
   while counter < empty_array.length
         #my_collect(empty_array) do |x|
-         yield(empty_array[counter])
+         yield(empty_array.capitalize[counter])
       counter += 1
   end
       empty_array
