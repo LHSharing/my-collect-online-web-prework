@@ -18,6 +18,3 @@ end
 #execute code block that it is called with for each element using the “yield” keyword
 #should return modified collection
 #end
-
-
-end
