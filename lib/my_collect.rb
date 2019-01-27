@@ -7,10 +7,11 @@
 def my_collect(empty_array)
   counter = 0
   while counter < empty_array.length
-         yield(empty_array[counter])
+          new_array = []
+          new_array << yield(empty_array[counter])
       counter += 1
   end
-      empty_array
+      new_array
 end
 #collection —> iterate over collection using a “while loop”
             #"while loop” = “while n < 3 puts “not enough stars, keep trying”
