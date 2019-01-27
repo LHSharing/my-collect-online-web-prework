@@ -4,7 +4,7 @@
 
 #Your #my_collect method, therefore, should not care about the contents of the code block that it is invoked with. 
 
-def collect_method(empty_array)
+def my_collect(empty_array)
   counter = 0
   while counter < empty_array.length
         #my_collect(empty_array) do |x|
